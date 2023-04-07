@@ -15,13 +15,13 @@ while (MU > mid && MU > high) {
 
 void input() {
 	while (true) {
-		cout << "Masukkan element ke dalan array : ";
+		cout << "Masukkan element ke dalam array : ";
 		cin >> n;
 
-		if (n <= 10)
+		if (n <= 113)
 			break;
 		else
-			cout << "\nMaksimal element adalah 10" << endl;
+			cout << "\nMaksimal element adalah 113" << endl;
 	}
 	cout << "\n===================" << endl;
 	cout << "\nElemen-Elemen Array" << endl;
@@ -109,8 +109,6 @@ void merge(int arr[10], int low, int high, int mid) {
 	}
 }
 
-
-
 void display() {
 	cout << "Sorted Array" << endl;
 
@@ -122,13 +120,11 @@ void display() {
 int main() {
 	input();
 	merge();
-	mergesort();
+	mergeSort();
 	display();
 
 	return 0;
 }
-
-
 
 
 // Jawaban soal :

@@ -19,7 +19,7 @@ void input() {
 		cin >> n;
 
 		if (n <= 113)
-			break; 
+			break;  
 		else
 			cout << "\nMaksimal element adalah 113" << endl;
 	}

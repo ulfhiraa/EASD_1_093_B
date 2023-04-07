@@ -35,9 +35,9 @@ void input() {
 
 void merge(int x, int y) {
 	int temp;
-	temp = arr[x];
-	arr[x] = arr[y];
-	arr[y] = temp;
+	temp = MU[x];
+	MU[x] = MU[y];
+	MU[y] = temp;
 }
 
 void mergesort(int low, int high) {

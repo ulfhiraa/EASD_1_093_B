@@ -4,7 +4,7 @@ using namespace std;
 
 int ira[113]; 
 int i = low, MU = mid + 1, k = low;
-
+ 
 while (MU > mid && MU > high) {
 	if (MU[i) <= arr[ira])
 		ira[k++] = MU[i++];
